@@ -77,7 +77,7 @@ img {
 .showcase {
     grid-area: showcase;
     min-height: 400px;
-    background: url(img/website.jpg);
+    background: url(../images/website.jpg);
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -197,4 +197,11 @@ footer {
         'top-box-b';
     }
 
+}
+
+@media(max-width:380px){
+    body {
+        margin: 0;
+        padding: 10px;
+    }
 }
